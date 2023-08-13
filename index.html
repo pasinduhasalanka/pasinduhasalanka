@@ -195,52 +195,52 @@
         <a href="#" class="button-two" id="hireme">Hire Me</a>
        </div>
 
-       <!--validate part-->
+
        <div class="container">
-        
+        <section id="form">
         <h1>User Details</h1>
-        <form id="userForm">
-          <div class="form-group">
-            <label for="firstName">First Name:</label>
-            <input type="text" id="firstName" class="vali" required>
-            <div class="error-message" id="firstNameError"></div>
-          </div>
-      
-          <div class="form-group">
-            <label for="lastName">Last Name:</label>
-            <input type="text" id="lastName" class="vali" required>
-            <div class="error-message" id="lastNameError"></div>
-          </div>
-      
-          <div class="form-group">
-            <label for="email">Email:</label>
-            <input type="email" id="email" class="vali" required>
-            <div class="error-message" id="emailError"></div>
-          </div>
-      
-          <div class="form-group">
-            <label for="gender">Gender:</label>
-            <select id="gender" class="vali" required>
-              <option value="">Select</option>
-              <option value="male">Male</option>
-              <option value="female">Female</option>
-              <option value="other">Other</option>
-            </select>
-            <div class="error-message" id="genderError"></div>
-          </div>
-      
-          <div class="form-group">
-            <label for="mobile">Mobile Number:</label>
-            <input type="tel" id="mobile" class="vali" required>
-            <div class="error-message" id="mobileError"></div>
-          </div>
-      
-          <div class="form-group">
-            <button type="submit">Submit</button>
-          </div>
+        <form action="Form.php" method="post">
+            <div class="form-group">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" class="vali" required>
+                <div class="error-message" id="firstNameError"></div>
+            </div>
+    
+            <div class="form-group">
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" class="vali" required>
+                <div class="error-message" id="lastNameError"></div>
+            </div>
+    
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" class="vali" required>
+                <div class="error-message" id="emailError"></div>
+            </div>
+    
+            <div class="form-group">
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" class="vali" required>
+                    <option value="">Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+                <div class="error-message" id="genderError"></div>
+            </div>
+    
+            <div class="form-group">
+                <label for="mobile">Mobile Number:</label>
+                <input type="tel" id="mobile" name="mobile" class="vali" required>
+                <div class="error-message" id="mobileError"></div>
+            </div>
+    
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
         </form>
-      </div>
-       <!--validate part-->
+      </section>
+    </div>
 
      <!---footer page-->  
      <section id="contact">
