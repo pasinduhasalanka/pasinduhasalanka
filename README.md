@@ -28,6 +28,8 @@ Thank you for taking the time to explore my web design portfolio repository. I h
 
 Note: Remember that this README file is a starting point, and you can customize it to reflect your personal style, expertise, and the unique aspects of your web design portfolio.
 
+**chosen option :Include Database Configuration in GitHub Repository(userdetails.sql)**
+
 
 
 
